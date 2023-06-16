@@ -5,20 +5,15 @@
  * main - To show a random generated number n
  *     and show if it is negative or positive
  *     or equal to 0
- * return : Always 0    
+ * return: Always 0    
   */
 
 
 int main(void)
 {
-	/**
-	 * to show a random number
-	 */
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)

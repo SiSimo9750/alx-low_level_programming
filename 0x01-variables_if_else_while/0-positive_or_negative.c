@@ -1,7 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+/*
+ * Main - To show if a random generated numer n is negative or positive or equal to 0
+  */
 
 
 int main(void)

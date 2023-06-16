@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * Main - To show a random generated number n
  *     and show if it is negative or positive
  *     or equal to 0

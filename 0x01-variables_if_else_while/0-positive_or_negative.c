@@ -4,7 +4,7 @@
 /**
  * main - To show a random generated number n
  *     and show if it is negative or positive
- * Return: Always 0    
+ * Return: Always 0
   */
 
 

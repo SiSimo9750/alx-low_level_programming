@@ -11,6 +11,9 @@
 
 int main(void)
 {
+	/*
+	 * to show a random number
+	 */
 	int n;
 
 	srand(time(0));

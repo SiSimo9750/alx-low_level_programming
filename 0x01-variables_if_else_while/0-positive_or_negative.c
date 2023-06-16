@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * Main - To show if a random generated numer n is negative or positive or equal to 0
+ * Main - To show a random generated number n
+ *     and show if it is negative or positive
+ *     or equal to 0
   */
 
 

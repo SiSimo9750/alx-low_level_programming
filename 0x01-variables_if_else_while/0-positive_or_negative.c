@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	/*
+	/**
 	 * to show a random number
 	 */
 	int n;

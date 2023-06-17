@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - will display base 16 numbers
- * return: will return 0
+ * Return: will return 0
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 	}
 	for (b = 'a'; b < 'g'; b++)
 	{
-	putchar(b);	
+	putchar(b);
 	}
 	putchar('\n');
 	return (0);

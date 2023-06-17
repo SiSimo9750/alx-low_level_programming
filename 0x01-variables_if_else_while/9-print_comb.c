@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - will display possible combinations
- * return: will be 0
+ * Return: will be 0
  */
 int main(void)
 {

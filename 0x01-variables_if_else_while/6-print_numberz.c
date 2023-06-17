@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print digits from 0 to 9 
+ * main - print digits from 0 to 9
  *	with putchar command
  * Return: will return value 0
  */

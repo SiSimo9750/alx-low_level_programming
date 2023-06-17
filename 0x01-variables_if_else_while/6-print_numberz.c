@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print digits from 0 to 9 
- * 	with putchar command
+ *	with putchar command
  * Return: will return value 0
  */
 int main(void)
@@ -13,5 +13,5 @@ int main(void)
 			putchar(a);
 		}
 	putchar('\n');
-	return (0);	
+	return (0);
 }

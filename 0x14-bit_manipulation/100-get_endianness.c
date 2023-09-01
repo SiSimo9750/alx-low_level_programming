@@ -8,7 +8,7 @@ int get_endianness(void)
 {
 	int i = 1;
 
-	if (((i >> 7) & 1) == 1)
+	if ((i % 256) == 1)
 		return (1);
 	else
 		return (0);

@@ -10,13 +10,13 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int result = 0;
-	unsigned int power_of_two = 1;
+	unsigned int power_of_two;
 	int length = 0;
 
 	if (b == NULL)
 		return (0);
 
-	while (b[length] != '\0')
+	while (!b[length])
 	{
 	if (b[length] != '0' && b[length] != '1')
 		return (0);

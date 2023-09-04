@@ -1,3 +1,6 @@
+#include "main.h"
+#include <stdlib.h>
+
 /**
  * read_textfile - will reade a file text.
  * @filename: file name pointer input.
@@ -29,3 +32,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	free(buffer);
 	close(opn);
+
+	return (wrt);
+}

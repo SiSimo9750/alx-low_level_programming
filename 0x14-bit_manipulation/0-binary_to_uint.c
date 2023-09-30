@@ -12,7 +12,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int pwr;
 	int l_eng;
 
-	if (!b)
+	if (b == NULL)
 		return (0);
 
 	for (l_eng = 0; b[l_eng]; l_eng++)

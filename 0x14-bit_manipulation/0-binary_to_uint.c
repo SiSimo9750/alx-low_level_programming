@@ -8,24 +8,24 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int Bin_output;
+	unsigned int Bin_rslt;
 	unsigned int pwr;
-	int l;
+	int l_eng;
 
 	if (!b)
 		return (0);
 
-	for (l = 0; b[l]; l++)
+	for (l_eng = 0; b[l_eng]; l_eng++)
 	{
-		if (b[l] != '0' && b[l] != '1')
+		if (b[l_eng] != '0' && b[l_eng] != '1')
 			return (0);
 	}
 
-	for (pwr = 1, Bin_output = 0, l--; l >= 0; l--, pwr *= 2)
+	for (pwr = 1, Bin_rslt = 0, l_eng--; l_eng >= 0; l_eng--, pwr *= 2)
 	{
-		if (b[l] == '1')
-			Bin_output += pwr;
+		if (b[l_eng] == '1')
+			Bin_rslt = Bin_rslt +  pwr;
 	}
 
-	return (Bin_output);
+	return (Bin_rslt);
 }

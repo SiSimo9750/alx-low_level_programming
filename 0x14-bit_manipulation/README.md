@@ -1,2 +1,2 @@
-eadme file for bit manip project	:wq
+dme file for bit anip project
 

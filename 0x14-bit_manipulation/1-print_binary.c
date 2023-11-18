@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_binary - Display binary
- * @n: input binary
+ * print_binary - show in binary
+ * @n: input param value
  */
 void print_binary(unsigned long int n)
 {
-	int i;
-	unsigned long int a;
+	int indx;
+	unsigned long int i;
 
 	if (n == 0)
 	{
@@ -15,14 +15,16 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (a = n, i = 0; (a >>= 1) > 0; i++)
+	for (i = n, indx = 0; (i >>= 1) > 0; indx++)
 		;
-	while (i >= 0)
+	while (indx >= 0)
 	{
-		if ((n >> i) & 1)
+		if ((n >> indx) & 1)
 			printf("1");
 		else
 			printf("0");
-		i--;
+		indx--;
 	}
 }
+
+
